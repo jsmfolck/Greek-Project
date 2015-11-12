@@ -84,10 +84,12 @@
 
 
    function reset(){
-         a = 0;
-         b = 0;
-         c = 0;
-         d = 0;
+      pos = 0;
+      are = 0;
+      dio = 0;
+      aph = 0;
+      dem = 0;
+      zeu = 0;
 console.log("reset working");
 
       }
