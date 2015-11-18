@@ -30,7 +30,9 @@
                   choice = q[i].value;
                }
             }
+         }   
                //each value is tallied when its chosen
+            
                if (choice == "pos") {
                   pos++;
                }
@@ -49,8 +51,9 @@
                if (choice == "zeu") {
                   zeu++;
                }
-         }
+         
          //determines the result based on highest number of tallies
+
       if (pos >= are && pos >= dio && pos >= aph && pos >= dem && pos >= zeu &&pos > 0) {
          // pos is the highest
          result = "POSEIDON";
@@ -90,11 +93,31 @@
       aph = 0;
       dem = 0;
       zeu = 0;
+      
 console.log("reset working");
 
       }
    };  
 
 
+$(function(){
+  // $('#q1').hide();
+   $('#q2').hide();
+   $('#q3').hide();
+   $('#q4').hide();
+   $('#q5').hide();
+   $('#q6').hide();
+   $('#q7').hide();
+   // $('#startquiz').on("click", function(){
+   //    $('#q1').fadeIn();
+   // })
+   $('.next').on("click", function(){
 
+      $(this).parent().hide();
+      $(this).parent().next().fadeIn();
+
+
+   })
+
+});
 
