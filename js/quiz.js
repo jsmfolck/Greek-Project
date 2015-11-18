@@ -80,24 +80,10 @@
       }
 
 
-      //show the result and the number of tallies for each value
-         document.getElementById("result").innerHTML = "You are " + result  + " POSEIDON:" + pos + " ARES:" + are + " DIONYSOS:" + dio + " APHRODITE:" + aph + " DEMETER:" + dem + " ZEUS:" + zeu;
-         //open page of the result
-           //window.location = result + ".htm";
+ document.getElementById("tallies").innerHTML = " POSEIDON:" + pos + " ARES:" + are + " DIONYSOS:" + dio + " APHRODITE:" + aph + " DEMETER:" + dem + " ZEUS:" + zeu;
 
-
-   function reset(){
-      pos = 0;
-      are = 0;
-      dio = 0;
-      aph = 0;
-      dem = 0;
-      zeu = 0;
-      
-console.log("reset working");
-
-      }
    };  
+
 
 
 $(function(){
@@ -118,6 +104,30 @@ $(function(){
 
 
    })
+
+    $('#reset').on("click", function(){
+      pos = 0;
+      are = 0;
+      dio = 0;
+      aph = 0;
+      dem = 0;
+      zeu = 0;
+      location.reload();
+      
+console.log("reset working");
+console.log(pos);
+
+      })
+
+    $('#submit').on("click", function(){
+
+
+      //show the result and the number of tallies for each value
+         document.getElementById("result").innerHTML = "You are " + result;
+         //open page of the result
+           //window.location = result + ".htm";
+
+    })
 
 });
 
