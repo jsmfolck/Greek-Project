@@ -3,6 +3,7 @@
 //add  use temp or whatever github tells you instead
 $ git checkout -b temp master
 $ git pull https://github-url.com
+git pull https://github.com/jsmfolck/Greek-Project.git
 
 // If there are any problems with the previous step,
 // you will need to add all files pulled, and commit the quick-branch
