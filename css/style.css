@@ -1,0 +1,20 @@
+.dash {
+	border: 2px solid #D4D4D4;
+	margin-top: 10%;
+	margin-bottom:10%;
+}
+
+.god-desc {
+	/* Goddess of love, bea: */
+	font-family: 'Crimson Text', serif;
+	font-size: 35px;
+	color: #FFAAC3;
+	letter-spacing: 4.55px;
+	font-weight: 700;
+	padding-top: 6%;
+	padding-left: 8.33333%
+}
+
+.first {
+	margin-top: 10%
+}
