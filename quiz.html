@@ -5,91 +5,96 @@
 	<title>Quiz</title>
 <script src="js/jquery-2.1.4.min.js"></script>
 <script src="js/quiz.js"></script>
-
+<link rel="stylesheet" href="css/quiz.css">
 </head>
 <body>
+
 <form name="quiz" action="javascript:quiz();">
 
 <div id="q1">
 	<h1>What is your spirit animal?</h1>
-	<input type="radio" name="q1" value="pos"> Horse<br>
-	<input type="radio" name="q1" value="are"> Vulture<br>
-	<input type="radio" name="q1" value="dio"> Leopard<br>
-	<input type="radio" name="q1" value="aph"> Dove<br>
-	<input type="radio" name="q1" value="dem"> Snake<br>
-	<input type="radio" name="q1" value="zeu"> Bull<br>
+	<input type="radio" name="q1" value="pos"><label>Horse</label><br>
+	<input type="radio" name="q1" value="are"><label>Vulture</label><br>
+	<input type="radio" name="q1" value="dio"><label>Leopard</label><br>
+	<input type="radio" name="q1" value="aph"><label>Dove</label><br>
+	<input type="radio" name="q1" value="dem"><label>Snake</label><br>
+	<input type="radio" name="q1" value="zeu"><label>Bull</label><br>
 	<br>
 	<button class="next">NEXT</button>	
 </div>
 
 <div id="q2">
 	<h1>What color inspires you the most?</h1>
-	<input type="radio" name="q2" value="pos"> Blue<br>
-	<input type="radio" name="q2" value="are"> Red<br>
-	<input type="radio" name="q2" value="dio"> Purple<br>
-	<input type="radio" name="q2" value="aph"> Pink<br>
-	<input type="radio" name="q2" value="dem"> Green<br>
-	<input type="radio" name="q2" value="zeu"> Gold<br>
+	<input type="radio" name="q2" value="aph"><label>Pink</label><br>
+	<input type="radio" name="q2" value="pos"><label>Blue</label><br>
+	<input type="radio" name="q2" value="are"><label>Red</label><br>
+	<input type="radio" name="q2" value="dem"><label>Green</label><br>
+	<input type="radio" name="q2" value="zeu"><label>Gold</label><br>
+	<input type="radio" name="q2" value="dio"><label>Purple</label><br>
+	
 	<br>
 	<button class="next">NEXT</button>	
 </div>	
 
 <div id="q3">
 	<h1>Where are you most likely to be found?</h1>
-	<input type="radio" name="q3" value="pos"> By the pool<br>
-	<input type="radio" name="q3" value="are"> At an MMA event<br>
-	<input type="radio" name="q3" value="dio"> The bar<br>
-	<input type="radio" name="q3" value="aph"> In the bedroom<br>
-	<input type="radio" name="q3" value="dem"> Farmer's market<br>
-	<input type="radio" name="q3" value="zeu"> VIP room<br>
+	<input type="radio" name="q3" value="zeu"><label>VIP room</label><br>
+	<input type="radio" name="q3" value="pos"><label>By the pool</label><br>
+	<input type="radio" name="q3" value="dem"><label>Farmer's market</label><br>
+	<input type="radio" name="q3" value="dio"><label>The bar</label><br>
+	<input type="radio" name="q3" value="are"><label>At an MMA event</label><br>
+	<input type="radio" name="q3" value="aph"><label>In the bedroom</label><br>
+
+
 	<br>
 	<button class="next">NEXT</button>	
 </div>
 
 <div id="q4">
 	<h1>What is the highlight of your week?</h1>
-	<input type="radio" name="q4" value="pos"> Spear fishing<br>
-	<input type="radio" name="q4" value="are"> Fist fighting your bro<br>
-	<input type="radio" name="q4" value="dio"> Throwing a party<br>
-	<input type="radio" name="q4" value="aph"> Botox appointment<br>
-	<input type="radio" name="q4" value="dem"> Marijuana<br>
-	<input type="radio" name="q4" value="zeu"> Taking a girl home<br>
+	<input type="radio" name="q4" value="aph"><label>Botox appointment</label><br>
+	<input type="radio" name="q4" value="dem"><label>Marijuana</label><br>
+	<input type="radio" name="q4" value="are"><label>Fist fighting your bro</label><br>
+	<input type="radio" name="q4" value="dio"><label>Throwing a party</label><br>
+	<input type="radio" name="q4" value="zeu"><label>Taking a girl home</label><br>
+	<input type="radio" name="q4" value="pos"><label>Spear fishing</label><br>
 	<br>
 	<button class="next">NEXT</button>	
 </div>
 
 <div id="q5">
 	<h1>What is your ideal hairstyle?</h1>
-	<input type="radio" name="q5" value="pos"> Man bun<br>
-	<input type="radio" name="q5" value="are"> High and tight<br>
-	<input type="radio" name="q5" value="dio"> Wild and curly<br>
-	<input type="radio" name="q5" value="aph"> Brazillian Blowout<br>
-	<input type="radio" name="q5" value="dem"> Dreadlocks<br>
-	<input type="radio" name="q5" value="zeu"> Epic beard<br>
+	<input type="radio" name="q5" value="dem"><label>Dreadlocks</label><br>
+	<input type="radio" name="q5" value="dio"><label>Wild and curly</label><br>
+	<input type="radio" name="q5" value="pos"><label>Man bun</label><br>
+	<input type="radio" name="q5" value="are"><label>High and tight</label><br>
+	<input type="radio" name="q5" value="zeu"><label>Epic beard</label><br>
+	<input type="radio" name="q5" value="aph"><label>Brazillian Blowout</label><br>
 	<br>
 	<button class="next">NEXT</button>	
 </div>
 
 <div id="q6">
 	<h1>Favorite late night snack?</h1>
-	<input type="radio" name="q6" value="pos"> Sashimi<br>
-	<input type="radio" name="q6" value="are"> Deer jerky<br>
-	<input type="radio" name="q6" value="dio"> Charcuterie selections<br>
-	<input type="radio" name="q6" value="aph"> Chocolate-covered strawberrries<br>
-	<input type="radio" name="q6" value="dem"> Kale chips<br>
-	<input type="radio" name="q6" value="zeu"> Waygu burger<br>
+	<input type="radio" name="q6" value="dio"><label>Charcuterie selections</label><br>
+	<input type="radio" name="q6" value="pos"><label>Sashimi</label><br>
+	<input type="radio" name="q6" value="dem"><label>Kale chips</label><br>
+	<input type="radio" name="q6" value="are"><label>Deer jerky</label><br>
+	<input type="radio" name="q6" value="aph"><label>Chocolate-covered strawberrries</label><br>
+	<input type="radio" name="q6" value="zeu"><label>Waygu burger</label><br>
+	
 	<br>
 	<button class="next">NEXT</button>	
 </div>
 
 <div id="q7">
 	<h1>What is your most played song?</h1>
-	<input type="radio" name="q7" value="pos"> "Feel It All Around" - Washed Out<br>
-	<input type="radio" name="q7" value="are"> "Dig" - Mudvayne<br>
-	<input type="radio" name="q7" value="dio"> "Can't Feel My Face" - The Weeknd<br>
-	<input type="radio" name="q7" value="aph"> "Crazy In Love" - Beyonce<br>
-	<input type="radio" name="q7" value="dem"> "Soak Up The Sun" - Sheryl Crow<br>
-	<input type="radio" name="q7" value="zeu"> "Yeezus" - Kanye West<br>
+	<input type="radio" name="q7" value="are"><label>"Dig" - Mudvayne</label><br>
+	<input type="radio" name="q7" value="pos"><label>"Feel It All Around" - Washed Out</label><br>
+	<input type="radio" name="q7" value="dio"><label>"Can't Feel My Face" - The Weeknd</label><br>
+	<input type="radio" name="q7" value="aph"><label>"Crazy In Love" - Beyonce</label><br>
+	<input type="radio" name="q7" value="dem"><label>"Soak Up The Sun" - Sheryl Crow</label><br>
+	<input type="radio" name="q7" value="zeu"><label>"Yeezus" - Kanye West</label><br>
 	<br>
 
 <button id="submit">SUBMIT</button>

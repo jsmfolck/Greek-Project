@@ -1,0 +1,36 @@
+
+/* the answer part*/
+label{
+	display: block;
+	width: 300px;
+}
+
+/* moves the little button away 
+and aligns it with the label*/
+input[type="radio"]:empty{
+	width: 300px;
+	position: absolute;
+	margin-left:-100px;
+
+}
+/* cursor for the button*/
+input[type="radio"]:hover{
+	cursor:pointer;
+}
+/* cursor for label */
+input[type="radio"]+label{
+	cursor:pointer;
+}
+
+/* when it's hovered*/
+input[type="radio"]:hover:not(:checked)+label{
+	background-color: lightgreen;
+}
+/* when it's checked*/
+input[type="radio"]:checked+label{
+	background-color: green;
+}
+
+
+
+
