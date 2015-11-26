@@ -90,23 +90,19 @@
 
 $(function(){
   // $('#q1').hide();
-   $('#q2').hide();
-   $('#q3').hide();
-   $('#q4').hide();
-   $('#q5').hide();
-   $('#q6').hide();
-   $('#q7').hide();
+   $('#q2,#q3,#q4,#q5,#q6,#q7').hide();
 
-   $('#q1:visible').parents().find("#quiz-nav-1").addClass('quiz-nav-selected');
-   $('#q1:hidden').parents().find("#quiz-nav-1").removeClass('quiz-nav-selected');
+   // $('#q1:visible').parents().find("#quiz-nav-1").addClass('quiz-nav-selected');
+   // $('#q1:hidden').parents().find("#quiz-nav-1").removeClass('quiz-nav-selected');
    // $('#q2:visible').parents().find("#quiz-nav-2").addClass('quiz-nav-selected');
 
    $('.next').on("click", function(){
 
-      $(this).parent().hide();
-      $(this).parent().next().fadeIn();
+      var id = $(this).parent().hide()
+         .next().fadeIn().index();
 
 
+         $(".quiz-nav li").eq(id).addClass("quiz-nav-selected");
 
    })
 
