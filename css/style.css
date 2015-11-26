@@ -18,3 +18,14 @@
 .first {
 	margin-top: 10%
 }
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Quiz Style */
+
+#q1{
+	background-color: #F2E4C9;
+}
