@@ -64,7 +64,7 @@
       }
       if (dio >= pos && dio >= are && dio >= aph && dio >= dem && dio >= zeu &&dio > 0) {
          // dio is the highest
-         result = "DIONYSOS";
+         result = "DIONYSUS";
       }
       if (aph >= pos && aph >= are && aph >= dio && aph >= dem && aph >= zeu && aph > 0) {
          // aph is the highest
@@ -79,8 +79,10 @@
          result = "ZEUS";
       }
 
+      
 
- document.getElementById("tallies").innerHTML = " POSEIDON:" + pos + " ARES:" + are + " DIONYSOS:" + dio + " APHRODITE:" + aph + " DEMETER:" + dem + " ZEUS:" + zeu;
+
+ document.getElementById("tallies").innerHTML = " POSEIDON:" + pos + " ARES:" + are + " DIONYSUS:" + dio + " APHRODITE:" + aph + " DEMETER:" + dem + " ZEUS:" + zeu;
 
    };  
 

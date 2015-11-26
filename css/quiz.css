@@ -1,0 +1,42 @@
+.quiz{
+	width:50%;
+	margin: auto;
+	background-color: #ccc;
+}
+
+
+
+/* the answer part*/
+label{
+	display: block;
+	width: 300px;
+}
+
+/* hides the circle button 
+and aligns it with the label*/
+input[type="radio"]:empty{
+	width: 300px;
+	position: absolute;
+	opacity: 0.01;
+}
+/* cursor for the button*/
+input[type="radio"]:hover{
+	cursor:pointer;
+}
+/* cursor for label */
+input[type="radio"]+label{
+	cursor:pointer;
+}
+
+/* when it's hovered*/
+input[type="radio"]:hover:not(:checked)+label{
+	background-color: lightgreen;
+}
+/* when it's checked*/
+input[type="radio"]:checked+label{
+	background-color: green;
+}
+
+
+
+
