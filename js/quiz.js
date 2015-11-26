@@ -96,16 +96,21 @@ $(function(){
    $('#q5').hide();
    $('#q6').hide();
    $('#q7').hide();
-   // $('#startquiz').on("click", function(){
-   //    $('#q1').fadeIn();
-   // })
+
+   $('#q1:visible').parents().find("#quiz-nav-1").addClass('quiz-nav-selected');
+   $('#q1:hidden').parents().find("#quiz-nav-1").removeClass('quiz-nav-selected');
+   // $('#q2:visible').parents().find("#quiz-nav-2").addClass('quiz-nav-selected');
+
    $('.next').on("click", function(){
 
       $(this).parent().hide();
       $(this).parent().next().fadeIn();
 
 
+
    })
+
+
 
     $('#reset').on("click", function(){
       pos = 0;

@@ -4,6 +4,15 @@
 	background-color: #ccc;
 }
 
+.quiz-nav li{
+	display: inline-block;
+	color:#666;
+}
+
+.quiz-nav-selected {
+	font-size: 2em;
+	color:black;
+}
 
 
 /* the answer part*/
