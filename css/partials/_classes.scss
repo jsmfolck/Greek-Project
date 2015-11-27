@@ -1,22 +1,44 @@
+//  UNIVERSAL
+
 body {
 	background: $color-main-3;
 }
 
-.dash {
-	border: 2px solid #D4D4D4;
-	margin-top: 10%;
-	margin-bottom:10%;
+h1{
+	font-family: $font-1;
+	text-transform: uppercase;
 }
 
-.god-desc {
-	font-family: 'Crimson Text', serif;
-	font-size: 35px;
-	color: #FFAAC3;
-	letter-spacing: 4.55px;
-	font-weight: 700;
-	padding-top: 6%;
-	padding-left: 8.33333%
+a {
+	font-family: $font-1;
+	font-weight:400;
+	text-transform: uppercase;
+
 }
+
+.title {
+	
+}
+
+.dash {
+	border: 2px solid #D4D4D4;
+	width:8.33333%;
+	margin-top: 10%;
+	margin-bottom:10%;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+
+.first {
+	margin-top: 7%;
+}
+
+
+
+// INDEX
+
+
 
 .test-h1 {
 	text-align: center;
@@ -32,22 +54,37 @@ body {
 	font-style: normal;
 	font-weight: 400;
 	text-align: center;
-	top-margin:1.25rem;
+	margin-top:2rem;
 }
 
 .link-box {
 	background-color:$color-main-4;
 	display: block;
 	height:4rem;
+	margin-bottom:4rem;
+	margin-top:4rem;
 }
 
-.first {
-	margin-top: 7%;
+.link-box-text {
+	text-align:center;
+	font-size: 21px;
+	color: $color-white;
+	letter-spacing: 2px;
+	padding-top:1rem;
 }
 
-h1{
-	font-family: 'Montserrat', sans-serif;
-	text-transform: uppercase;
+
+
+// PROFILE PAGES
+
+.god-desc {
+	font-family: 'Crimson Text', serif;
+	font-size: 35px;
+	color: #FFAAC3;
+	letter-spacing: 4.55px;
+	font-weight: 700;
+	padding-top: 6%;
+	padding-left: 8.33333%
 }
 
 
