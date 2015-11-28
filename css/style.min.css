@@ -1,0 +1,186 @@
+body {
+  background: #F9F6EF; }
+
+h1 {
+  font-family: "brandon-grotesque", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+h3 {
+  font-family: "brandon-grotesque", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .15em; }
+
+p {
+  font-family: 'Crimson Text', serif;
+  font-size: 1em;
+  color: #262622;
+  letter-spacing: .08em;
+  line-height: 1.7em;
+  font-weight: 400;
+  font-style: normal; }
+
+.title {
+  letter-spacing: .15em; }
+
+.center {
+  text-align: center; }
+
+.left {
+  float: left;
+  margin-left: 0; }
+
+.epic {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .15em;
+  font-size: 3.2em; }
+
+a {
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.dash {
+  border: 2px solid #262622;
+  width: 8.33333%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  border-radius: 1px;
+  margin-right: auto;
+  margin-left: auto; }
+
+.dash-2 {
+  border: 2px solid #262622;
+  width: 8.33333%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  border-radius: 1px; }
+
+.first {
+  margin-top: 5%; }
+
+.secondary {
+  font-family: 'Crimson Text', serif;
+  font-size: 1.3em;
+  line-height: 1.7em;
+  font-style: italic;
+  font-weight: 400; }
+
+.panel {
+  border-style: none;
+  border-width: 0px;
+  padding: 1.25rem 1.25rem 2.8rem;
+  color: #262622; }
+
+.panel h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .15em;
+  font-size: 1.4em;
+  line-height: 1.4em; }
+
+.panel p {
+  font-style: italic; }
+
+.link-box {
+  background-color: #d9ae5f;
+  display: block;
+  margin-bottom: 3rem;
+  margin-top: 1.5rem;
+  border-radius: 1px; }
+
+.link-box-text {
+  font-family: "brandon-grotesque", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  text-align: center;
+  font-size: 15px;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+  padding: 1rem;
+  font-weight: 700; }
+
+.god-desc {
+  font-family: 'Crimson Text', serif;
+  font-size: 35px;
+  color: #FFAAC3;
+  letter-spacing: 4.55px;
+  font-weight: 700;
+  padding-top: 6%;
+  padding-left: 8.33333%; }
+
+.parthenon {
+  margin: 0 auto;
+  width: 22em;
+  padding-bottom: 20px; }
+
+/* Quiz Style */
+#q1 {
+  background-color: #F9F6EF; }
+
+.quiz {
+  width: 50%;
+  margin: auto;
+  background-color: #ccc; }
+
+/* the answer part*/
+label {
+  display: block;
+  width: 300px; }
+
+/* hides the circle button 
+and aligns it with the label*/
+input[type="radio"]:empty {
+  width: 300px;
+  position: absolute;
+  opacity: 0.01; }
+
+/* cursor for the button*/
+input[type="radio"]:hover {
+  cursor: pointer; }
+
+/* cursor for label */
+input[type="radio"] + label {
+  cursor: pointer; }
+
+/* when it's hovered*/
+input[type="radio"]:hover:not(:checked) + label {
+  background-color: lightgreen; }
+
+/* when it's checked*/
+input[type="radio"]:checked + label {
+  background-color: green; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  font-size: 15px;
+  margin: 0;
+  line-height: 1.5em;
+  font-family: Helvetica, Arial, sans serif; }
+
+header,
+footer,
+main,
+aisde,
+article,
+section,
+nav,
+figure,
+figcaption {
+  display: block; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0; }
+
+a {
+  font-weight: bold;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: none; }
+
+/*# sourceMappingURL=style.min.css.map */
