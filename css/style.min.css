@@ -90,13 +90,15 @@ a {
   border-radius: 1px; }
 
 .link-box-text {
-  font-family: "brandon-grotesque", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+ font-family: "brandon-grotesque", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   text-align: center;
-  font-size: 15px;
-  color: #FFFFFF;
-  letter-spacing: 2px;
-  padding: 1rem;
-  font-weight: 700; }
+   font-size: 1em;
+    letter-spacing: .15em;
+  line-height: 1.7em;
+  color: #fff;
+  padding: 1rem; 
+  font-weight:700;
+  margin: 0;}
 
 .god-desc {
   font-family: 'Crimson Text', serif;

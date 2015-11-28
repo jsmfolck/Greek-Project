@@ -44,11 +44,15 @@ a {
   margin-top: 4rem; }
 
 .link-box-text {
+  font-family: "brandon-grotesque", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   text-align: center;
-  font-size: 21px;
-  color: #FFFFFF;
-  letter-spacing: 2px;
-  padding-top: 1rem; }
+   font-size: 1em;
+  letter-spacing: .15em;
+  line-height: 1.7em;
+  color: #fff;
+  padding: 1rem; 
+  font-weight:700;
+  margin: 0;}
 
 .god-desc {
   font-family: 'Crimson Text', serif;

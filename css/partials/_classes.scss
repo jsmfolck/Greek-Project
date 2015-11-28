@@ -92,6 +92,8 @@ a {
     border-width: 0px;
     padding: 1.25rem 1.25rem 2.8rem;
     color: $color-main-black;
+    margin-bottom: 1.6rem;
+
 }
 
 .panel h3{
@@ -116,11 +118,11 @@ a {
 .link-box-text {
 font-family: "brandon-grotesque", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   text-align: center;
-  font-size: 15px;
   color: $color-white;
-  letter-spacing: 2px;
   padding: 1rem; 
-	font-weight:700;}
+	font-weight:700;
+  margin: 0;
+}
 
 .god-desc {
 font-family: 'Crimson Text', serif;
@@ -181,3 +183,5 @@ input[type="radio"]:hover:not(:checked)+label{
 input[type="radio"]:checked+label{
 	background-color: green;
 }
+// MEDIA QUERIES //
+
