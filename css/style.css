@@ -1,19 +1,26 @@
-.body {
-  color: #F7F4EC; }
+body {
+  background: #F9F6EF; }
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase; }
+
+a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase; }
 
 .dash {
   border: 2px solid #D4D4D4;
+  width: 8.33333%;
   margin-top: 10%;
-  margin-bottom: 10%; }
+  margin-bottom: 10%;
+  margin-right: auto;
+  margin-left: auto; }
 
-.god-desc {
-  font-family: 'Crimson Text', serif;
-  font-size: 35px;
-  color: #FFAAC3;
-  letter-spacing: 4.55px;
-  font-weight: 700;
-  padding-top: 6%;
-  padding-left: 8.33333%; }
+.first {
+  margin-top: 7%; }
+
 
 .test-h1 {
   text-align: center;
@@ -28,32 +35,46 @@
   font-style: normal;
   font-weight: 400;
   text-align: center;
-  top-margin: 1.25rem; }
+
+  margin-top: 2rem; }
 
 .link-box {
-  background-color: #000;
-  display: block; }
+  background-color: #FF7849;
+  display: block;
+  height: 4rem;
+  margin-bottom: 4rem;
+  margin-top: 4rem; }
 
-.first {
-  margin-top: 7%; }
+.link-box-text {
+  font-family: "brandon-grotesque", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  text-align: center;
+   font-size: 1em;
+  letter-spacing: .15em;
+  line-height: 1.7em;
+  color: #fff;
+  padding: 1rem; 
+  font-weight:700;
+  margin: 0;}
 
-h1 {
-  font-family: 'Montserrat', sans-serif; }
+.god-desc {
+  font-family: 'Crimson Text', serif;
+  font-size: 35px;
+  color: #FFAAC3;
+  letter-spacing: 4.55px;
+  font-weight: 700;
+  padding-top: 6%;
+  padding-left: 8.33333%; }
+
 
 /* Quiz Style */
 #q1 {
   background-color: #F2E4C9; }
 
-<<<<<<< HEAD
+
 #q1{
 	background-color: #F2E4C9;
-<<<<<<< HEAD
-}
-=======
+
 }
 
-
->>>>>>> 182317e99ebb2bed2f53e31c628f80586c18063d
-=======
 /*# sourceMappingURL=style.css.map */
->>>>>>> 7a55bb97be90cbbbdba460fe953fec79b683ef84
+
