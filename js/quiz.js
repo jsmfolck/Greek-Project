@@ -92,7 +92,7 @@ $(function(){
 
    $('#q2,#q3,#q4,#q5,#q6,#q7,.next').hide();
 
-   $('.question>input').on("click", function(){
+   $('.answers>input').on("click", function(){
       $('.next').fadeIn().on("click", function(){
 
       var id = $(this).parent().hide()
@@ -107,11 +107,7 @@ $(function(){
 
    })
 
-   $('.back').on("click", function(){
-      var id = $(this).parent().hide()
-         .prev().fadeIn().index();
-
-   })
+ 
 
 
 
