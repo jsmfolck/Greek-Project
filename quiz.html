@@ -39,7 +39,8 @@
 
 	<form name="quiz" action="javascript:quiz();">
 
-	<div id="q1">
+	
+	<div class="question" id="q1">
 		<h1>What is your spirit animal?</h1>
 		<input type="radio" name="q1" value="pos"><label>Horse</label><br>
 		<input type="radio" name="q1" value="are"><label>Vulture</label><br>
@@ -49,9 +50,10 @@
 		<input type="radio" name="q1" value="zeu"><label>Bull</label><br>
 		<br>
 		<button class="next">NEXT</button>	
+
 	</div>
 
-	<div id="q2">
+	<div class="question" id="q2">
 		<h1>What color inspires you the most?</h1>
 		<input type="radio" name="q2" value="aph"><label>Pink</label><br>
 		<input type="radio" name="q2" value="pos"><label>Blue</label><br>
@@ -64,7 +66,7 @@
 		<button class="next">NEXT</button>	
 	</div>	
 
-	<div id="q3">
+	<div class="question" id="q3">
 		<h1>Where are you most likely to be found?</h1>
 		<input type="radio" name="q3" value="zeu"><label>VIP room</label><br>
 		<input type="radio" name="q3" value="pos"><label>By the pool</label><br>
@@ -78,7 +80,7 @@
 		<button class="next">NEXT</button>	
 	</div>
 
-	<div id="q4">
+	<div class="question" id="q4">
 		<h1>What is the highlight of your week?</h1>
 		<input type="radio" name="q4" value="aph"><label>Botox appointment</label><br>
 		<input type="radio" name="q4" value="dem"><label>Marijuana</label><br>
@@ -90,7 +92,7 @@
 		<button class="next">NEXT</button>	
 	</div>
 
-	<div id="q5">
+	<div class="question" id="q5">
 		<h1>What is your ideal hairstyle?</h1>
 		<input type="radio" name="q5" value="dem"><label>Dreadlocks</label><br>
 		<input type="radio" name="q5" value="dio"><label>Wild and curly</label><br>
@@ -102,7 +104,7 @@
 		<button class="next">NEXT</button>	
 	</div>
 
-	<div id="q6">
+	<div class="question" id="q6">
 		<h1>Favorite late night snack?</h1>
 		<input type="radio" name="q6" value="dio"><label>Charcuterie selections</label><br>
 		<input type="radio" name="q6" value="pos"><label>Sashimi</label><br>
@@ -115,7 +117,7 @@
 		<button class="next">NEXT</button>	
 	</div>
 
-	<div id="q7">
+	<div class="question" id="q7">
 		<h1>What is your most played song?</h1>
 		<input type="radio" name="q7" value="are"><label>"Dig" - Mudvayne</label><br>
 		<input type="radio" name="q7" value="pos"><label>"Feel It All Around" - Washed Out</label><br>
@@ -125,18 +127,35 @@
 		<input type="radio" name="q7" value="zeu"><label>"Yeezus" - Kanye West</label><br>
 		<br>
 
-	<button id="submit">SUBMIT</button>
+		<button id="submit">SUBMIT</button>
 
 	</div>
+	
 
-	<button id="reset">RESET</button>
+
 	<br><br>
-	<div id="tallies"></div>
-	<div id="result"></div>
+
 
 	</form>
 
+	<div class="quiz-nav">
+		<nav>
+			<ul>
+				<li class="quiz-nav-selected">&bull;</li>
+				<li>&bull;</li>
+				<li>&bull;</li>
+				<li>&bull;</li>
+				<li>&bull;</li>
+				<li>&bull;</li>
+				<li>&bull;</li>
+			</ul>
+		</nav>
+	</div>
+
 </div>
+	<div id="tallies"></div>
+	<div id="result"></div>
+
 	
 </body>
 </html>
