@@ -89,23 +89,31 @@
 
 
 $(function(){
-  // $('#q1').hide();
-   $('#q2').hide();
-   $('#q3').hide();
-   $('#q4').hide();
-   $('#q5').hide();
-   $('#q6').hide();
-   $('#q7').hide();
-   // $('#startquiz').on("click", function(){
-   //    $('#q1').fadeIn();
-   // })
-   $('.next').on("click", function(){
 
-      $(this).parent().hide();
-      $(this).parent().next().fadeIn();
+   $('#q2,#q3,#q4,#q5,#q6,#q7,.next').hide();
+
+   $('.question>input').on("click", function(){
+      $('.next').fadeIn().on("click", function(){
+
+      var id = $(this).parent().hide()
+         .next().fadeIn().index();
+         $('.next').hide();
+
+
+         $(".quiz-nav li").eq(id).addClass("quiz-nav-selected");
+
+      })
 
 
    })
+
+   $('.back').on("click", function(){
+      var id = $(this).parent().hide()
+         .prev().fadeIn().index();
+
+   })
+
+
 
     $('#reset').on("click", function(){
       pos = 0;
