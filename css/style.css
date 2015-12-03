@@ -30,6 +30,12 @@ p {
   float: left;
   margin-left: 0; }
 
+.epic {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .15em;
+  font-size: 3.2em; }
+
 a {
   font-weight: 700;
   text-transform: uppercase; }
@@ -55,7 +61,7 @@ a {
 
 .secondary {
   font-family: 'Crimson Text', serif;
-  font-size: 1.6em;
+  font-size: 1.5em;
   line-height: 1.7em;
   font-style: italic;
   font-weight: 400; }
@@ -63,11 +69,21 @@ a {
 .panel {
   border-style: none;
   border-width: 0px;
-  padding: 1.25rem 1.25rem 2.8rem;
+  padding: 1.25rem 1.25rem 1.25rem;
   color: #262622;
   margin-bottom: 1.6rem; }
-  .panel.bluish {
-    background-color: #F9F6EF; }
+  .panel.pink {
+    background-color: #fe9997; }
+  .panel.purple {
+    background-color: #a57f92; }
+  .panel.green {
+    background-color: #97bb97; }
+  .panel.yellow {
+    background-color: #d69b56; }
+  .panel.blue {
+    background-color: #7ba4a8; }
+  .panel.red {
+    background-color: #f26464; }
 
 .panel h3 {
   text-transform: uppercase;
@@ -92,7 +108,8 @@ a {
   color: #FFFFFF;
   padding: 1rem;
   font-weight: 700;
-  margin: 0; }
+  margin: 0;
+  letter-spacing: .15em; }
 
 .god-desc {
   font-family: 'Crimson Text', serif;
@@ -112,15 +129,8 @@ a {
 .quiz {
   width: 80%;
   padding-top: 40px;
-  margin: auto; }
-
-.quiz-nav ul li {
-  display: inline-block;
-  color: #666; }
-
-.quiz-nav-selected {
-  font-size: 1.5em;
-  color: #000 !important; }
+  margin: auto;
+  background-color: #ccc; }
 
 .question > h1 {
   display: block;
