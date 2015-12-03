@@ -85,15 +85,33 @@ a {
 
 
 .panel{
-	border-style:none;
+  border-style:none;
     border-width: 0px;
-    padding: 1.25rem 1.25rem 2.8rem;
+    padding: 1.25rem 1.25rem 1.25rem;
     color: $color-main-black;
     margin-bottom: 1.6rem;
     // background:none !important;
-  &.bluish {
-    background-color:$color-main-beige;
+  
+  &.pink {
+    background-color:$color-pink;
   }
+   &.purple{
+    background-color:$color-purple;
+  }
+   &.green {
+    background-color:$color-green;
+  }
+   &.yellow {
+    background-color:$color-yellow;
+  }
+   &.blue {
+    background-color:$color-blue;
+  }
+   &.red{
+    background-color:$color-red;
+  }
+  
+
 }
 
 
@@ -143,7 +161,6 @@ font-family: 'Crimson Text', serif;
 
 
 /* Quiz Style */
-
 #q1 {
   background-color: $color-main-beige; }
 
@@ -153,18 +170,9 @@ font-family: 'Crimson Text', serif;
 .quiz{
 	width:50%;
 	margin: auto;
-
+	background-color: #ccc;
 }
 
-.quiz-nav ul li{
-  display: inline-block;
-  color:#666;
-}
-
-.quiz-nav-selected{
-  font-size: 1.5em;
-  color:#000 !important;
-}
 
 /* the answer part*/
 label{
