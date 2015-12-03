@@ -149,7 +149,10 @@ a {
 
 .quiz-nav {
   display: block;
-  float: left; }
+  padding-top: 20px;
+  float: left;
+  width: 50%;
+  text-align: center; }
 
 /* the answer part*/
 label {
