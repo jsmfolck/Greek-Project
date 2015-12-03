@@ -65,8 +65,9 @@ a {
   border-width: 0px;
   padding: 1.25rem 1.25rem 2.8rem;
   color: #262622;
-  margin-bottom: 1.6rem;
-  background: none !important; }
+  margin-bottom: 1.6rem; }
+  .panel.bluish {
+    background-color: #F9F6EF; }
 
 .panel h3 {
   text-transform: uppercase;
@@ -108,11 +109,9 @@ a {
   padding-bottom: 20px; }
 
 /* Quiz Style */
-#q1 {
-  background-color: #F9F6EF; }
-
 .quiz {
-  width: 50%;
+  width: 80%;
+  padding-top: 40px;
   margin: auto; }
 
 .quiz-nav ul li {
@@ -123,15 +122,45 @@ a {
   font-size: 1.5em;
   color: #000 !important; }
 
+.question > h1 {
+  display: block;
+  float: left;
+  width: 50%; }
+
+.answers {
+  display: block;
+  float: right;
+  width: 50%;
+  background-color: white;
+  text-align: center; }
+
+.next, #submit {
+  display: block;
+  float: right;
+  background-color: #d9ae5f; }
+  .next:hover, #submit:hover {
+    background-color: #edd8b1; }
+
+.quiz-nav {
+  display: block;
+  padding-top: 20px;
+  float: left;
+  width: 50%;
+  text-align: center; }
+
 /* the answer part*/
 label {
   display: block;
-  width: 300px; }
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  vertical-align: center; }
 
 /* hides the circle button 
 and aligns it with the label*/
 input[type="radio"]:empty {
-  width: 300px;
+  width: 100%;
+  height: 100%;
   position: absolute;
   opacity: 0.01; }
 
@@ -141,15 +170,16 @@ input[type="radio"]:hover {
 
 /* cursor for label */
 input[type="radio"] + label {
-  cursor: pointer; }
+  cursor: pointer;
+  margin: 0; }
 
 /* when it's hovered*/
 input[type="radio"]:hover:not(:checked) + label {
-  background-color: lightgreen; }
+  background-color: #edd8b1; }
 
 /* when it's checked*/
 input[type="radio"]:checked + label {
-  background-color: green; }
+  background-color: #d9ae5f; }
 
 * {
   box-sizing: border-box; }

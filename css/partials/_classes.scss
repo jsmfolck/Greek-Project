@@ -153,29 +153,72 @@ font-family: 'Crimson Text', serif;
 
 
 /* Quiz Style */
-#q1 {
-  background-color: $color-main-beige; }
+
 
 
 
 // QUIZ STYLING //
 .quiz{
-	width:50%;
+	width:80%;
+  padding-top: 40px;
 	margin: auto;
 	background-color: #ccc;
 }
 
 
+.question>h1{
+  display: block;
+  float:left;
+  width: 50%;
+}
+
+.answers{
+  display: block;
+  float:right;
+  width:50%;
+  background-color:white;
+  text-align: center;
+}
+
+.next, #submit{
+  display: block;
+  float:right;
+  background-color:$color-main-gold-light;
+  &:hover{
+    background-color:lighten($color-main-gold-light, 20%);
+  }
+}
+
+
+.quiz-nav{
+  display: block;
+  padding-top:20px;
+  float:left;
+  width:50%;
+  text-align:center;
+}
+// .clear{
+//   content: '';
+//   display: table;
+//   clear:both;
+// }
+
+
 /* the answer part*/
 label{
 	display: block;
-	width: 300px;
+	width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  vertical-align: center;
+
 }
 
 /* hides the circle button 
 and aligns it with the label*/
 input[type="radio"]:empty{
-	width: 300px;
+	width: 100%;
+  height: 100%;
 	position: absolute;
 	opacity: 0.01;
 }
@@ -186,15 +229,16 @@ input[type="radio"]:hover{
 /* cursor for label */
 input[type="radio"]+label{
 	cursor:pointer;
+  margin:0;
 }
 
 /* when it's hovered*/
 input[type="radio"]:hover:not(:checked)+label{
-	background-color: lightgreen;
+	background-color: lighten($color-main-gold-light,20%);
 }
 /* when it's checked*/
 input[type="radio"]:checked+label{
-	background-color: green;
+	background-color: $color-main-gold-light;
 }
 // MEDIA QUERIES //
 
