@@ -1,21 +1,21 @@
 
 // quickname is a fast name for a branch to be thrown away in a second
 //add  use temp or whatever github tells you instead
-$ git checkout -b temp master
-$ git pull https://github-url.com
+git checkout -b temp master
+git pull https://github-url.com
 git pull https://github.com/jsmfolck/Greek-Project.git
 
 // If there are any problems with the previous step,
 // you will need to add all files pulled, and commit the quick-branch
 // Solve conflicts in Sublime
-$ git add .
-$ git commit -m "fixed conflicts"
+git add .
+git commit -m "fixed conflicts"
 
 // switch back to the master, merge the temp, and commit the merge
-$ git checkout master
-$ git merge temp
-$ git commit -m "merged temp"
+git checkout master
+git merge temp
+git commit -m "merged temp"
 
 // clean up and delete the quick-name, and push up... or not, whatever
-$ git branch -d temp
-$ git push
+git branch -d temp
+git push
