@@ -84,9 +84,12 @@ a {
     padding: 1.25rem 1.25rem 2.8rem;
     color: $color-main-black;
     margin-bottom: 1.6rem;
-    background:none !important;
-
+    // background:none !important;
+  &.bluish {
+    background-color:$color-main-beige;
+  }
 }
+
 
 .panel h3{
 	text-transform: uppercase;
