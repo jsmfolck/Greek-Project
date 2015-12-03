@@ -18,4 +18,4 @@ $ git commit -m "merged temp"
 
 // clean up and delete the quick-name, and push up... or not, whatever
 $ git branch -d temp
-$ git push
+$ git push original master

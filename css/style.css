@@ -30,12 +30,6 @@ p {
   float: left;
   margin-left: 0; }
 
-.epic {
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: .15em;
-  font-size: 3.2em; }
-
 a {
   font-weight: 700;
   text-transform: uppercase; }
@@ -61,7 +55,7 @@ a {
 
 .secondary {
   font-family: 'Crimson Text', serif;
-  font-size: 1.3em;
+  font-size: 1.6em;
   line-height: 1.7em;
   font-style: italic;
   font-weight: 400; }
@@ -119,15 +113,14 @@ a {
 
 .quiz {
   width: 50%;
-  margin: auto;
-  background-color: #ccc; }
+  margin: auto; }
 
 .quiz-nav ul li {
   display: inline-block;
   color: #666; }
 
 .quiz-nav-selected {
-  font-size: 2em;
+  font-size: 1.5em;
   color: #000 !important; }
 
 /* the answer part*/
