@@ -87,9 +87,8 @@ a {
 .panel{
   border-style:none;
     border-width: 0px;
-    padding: 1.25rem 1.25rem 1.25rem;
+    padding: 2rem 1.75em 1.75em 1.75em;
     color: $color-main-black;
-    margin-bottom: 1.6rem;
     // background:none !important;
   
   &.pink {
@@ -110,7 +109,9 @@ a {
    &.red{
     background-color:$color-red;
   }
-  
+  .pt-20{
+    padding-top:$mediumgap;
+  }
 }
 
 .panel h3{
