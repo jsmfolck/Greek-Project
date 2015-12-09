@@ -169,7 +169,6 @@ font-family: 'Crimson Text', serif;
 	width:80%;
   padding-top: 40px;
 	margin: auto;
-	background-color: #ccc;
 }
 
 
@@ -177,19 +176,27 @@ font-family: 'Crimson Text', serif;
   display: block;
   float:left;
   width: 50%;
+  height: 300px;
 }
 
 .answers{
   display: block;
   float:right;
   width:50%;
-  background-color:white;
+  text-align: center;
+}
+
+.answers hr {
+  margin:auto;
+  border: 1px solid #F1EFEF;
+  width:60%;
   text-align: center;
 }
 
 .next, #submit{
   display: block;
   float:right;
+  margin-top: 20px;
   background-color:$color-main-gold-light;
   &:hover{
     background-color:lighten($color-main-gold-light, 20%);
@@ -204,11 +211,27 @@ font-family: 'Crimson Text', serif;
   width:50%;
   text-align:center;
 }
-// .clear{
-//   content: '';
-//   display: table;
-//   clear:both;
-// }
+
+.quiz-nav ul{
+  margin:0;
+}
+
+.quiz-nav ul li{
+  display: inline-block;
+  padding:2px;
+  font-size: 1.7em;
+  color:lighten($color-main-gold-light,20%);
+}
+
+.quiz-nav-selected{
+  font-size: 2.5em !important;
+  color:$color-main-gold-light !important;
+}
+
+.quiz-buttons{
+  display: block;
+  float:right;
+}
 
 
 /* the answer part*/
@@ -218,14 +241,16 @@ label{
   padding-top: 5%;
   padding-bottom: 5%;
   vertical-align: center;
+  background-color: white;
+
 
 }
 
 /* hides the circle button 
 and aligns it with the label*/
 input[type="radio"]:empty{
-	width: 100%;
-  height: 100%;
+	width: 50%;
+  height: 50%;
 	position: absolute;
 	opacity: 0.01;
 }
@@ -242,6 +267,10 @@ input[type="radio"]+label{
 /* when it's hovered*/
 input[type="radio"]:hover:not(:checked)+label{
 	background-color: lighten($color-main-gold-light,20%);
+  transition: background-color 0.5s;
+  -moz-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  -ms-transition: background-color 0.5s;
 }
 /* when it's checked*/
 input[type="radio"]:checked+label{
