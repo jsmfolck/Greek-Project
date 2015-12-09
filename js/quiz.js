@@ -88,15 +88,51 @@
 
 
 
+     
+
+
 $(function(){
 
-   $('#q2,#q3,#q4,#q5,#q6,#q7,.next').hide();
+   $('#q1,#q2,#q3,#q4,#q5,#q6,#q7,.next,.quiz-nav,.answers').hide();
+      // $("input[value='pos']+label").hide();
+      // $("input[value='are']+label").hide();
+      // $("input[value='dio']+label").hide();
+      // $("input[value='aph']+label").hide();
+      // $("input[value='dem']+label").hide();
+      // $("input[value='zeu']+label").hide();
+
+  }) 
+
+ // function showAnswers() {
+ //         $("input[value='pos']+label").fadeIn(500);
+ //         $("input[value='are']+label").fadeIn(800);
+ //         $("input[value='dio']+label").fadeIn(1100);
+ //         $("input[value='aph']+label").fadeIn(1400);
+ //         $("input[value='dem']+label").fadeIn(1700);
+ //         $("input[value='zeu']+label").fadeIn(2000);
+
+ //      };
+
+  $(document).ready(function(){ 
+  // $(this).showAnswers();
+   $('#q1,.quiz-nav,.answers').fadeIn(800);
+         // $("input[value='pos']+label").fadeIn(500);
+         // $("input[value='are']+label").fadeIn(800);
+         // $("input[value='dio']+label").fadeIn(1100);
+         // $("input[value='aph']+label").fadeIn(1400);
+         // $("input[value='dem']+label").fadeIn(1700);
+         // $("input[value='zeu']+label").fadeIn(2000);
+
+
+
+
 
    $('.answers>input').on("click", function(){
       $('.next').fadeIn().on("click", function(){
 
       var id = $(this).parent().parent().hide()
-         .next().fadeIn().index();
+         .next().fadeIn(1000).index();
+
          $('.next').hide();
 
 
