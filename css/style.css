@@ -69,9 +69,8 @@ a {
 .panel {
   border-style: none;
   border-width: 0px;
-  padding: 1.25rem 1.25rem 1.25rem;
-  color: #262622;
-  margin-bottom: 1.6rem; }
+  padding: 2rem 1.75em 1.75em 1.75em;
+  color: #262622; }
   .panel.pink {
     background-color: #fe9997; }
   .panel.purple {
@@ -84,6 +83,8 @@ a {
     background-color: #7ba4a8; }
   .panel.red {
     background-color: #f26464; }
+  .panel .pt-20 {
+    padding-top: 30px; }
 
 .panel h3 {
   text-transform: uppercase;
