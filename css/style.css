@@ -85,6 +85,14 @@ a {
     background-color: #f26464; }
   .panel .pt-20 {
     padding-top: 30px; }
+  .panel > img {
+    width: 100%;
+    transform-style: preserve-3d; }
+  .panel > img:hover {
+    transition-duration: 0.5s;
+    transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1); }
 
 .panel h3 {
   text-transform: uppercase;
@@ -126,28 +134,28 @@ a {
   width: 22em;
   padding-bottom: 20px; }
 
-/* Quiz Style */
 .quiz {
   width: 80%;
   padding-top: 40px;
-  margin: auto;
-  background-color: #ccc; }
+  margin: auto; }
 
 .question > h1 {
   display: block;
   float: left;
-  width: 50%; }
+  width: 50%;
+  height: 300px;
+  padding-right: 5%; }
 
 .answers {
   display: block;
   float: right;
   width: 50%;
-  background-color: white;
   text-align: center; }
 
 .next, #submit {
   display: block;
   float: right;
+  margin-top: 20px;
   background-color: #d9ae5f; }
   .next:hover, #submit:hover {
     background-color: #edd8b1; }
@@ -159,19 +167,39 @@ a {
   width: 50%;
   text-align: center; }
 
+.quiz-nav ul {
+  margin: 0; }
+
+.quiz-nav ul li {
+  display: inline-block;
+  padding: 2px;
+  font-size: 1.7em;
+  color: #edd8b1; }
+
+.quiz-nav-selected {
+  font-size: 2.5em !important;
+  color: #d9ae5f !important;
+  transition: color 0.8s; }
+
+.quiz-buttons {
+  display: block;
+  float: right; }
+
 /* the answer part*/
 label {
   display: block;
   width: 100%;
   padding-top: 5%;
   padding-bottom: 5%;
-  vertical-align: center; }
+  vertical-align: center;
+  background-color: white;
+  border-bottom: 2px solid #DADADA; }
 
 /* hides the circle button 
 and aligns it with the label*/
 input[type="radio"]:empty {
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
   position: absolute;
   opacity: 0.01; }
 
@@ -186,7 +214,11 @@ input[type="radio"] + label {
 
 /* when it's hovered*/
 input[type="radio"]:hover:not(:checked) + label {
-  background-color: #edd8b1; }
+  background-color: #edd8b1;
+  transition: background-color 0.5s;
+  -moz-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  -ms-transition: background-color 0.5s; }
 
 /* when it's checked*/
 input[type="radio"]:checked + label {
