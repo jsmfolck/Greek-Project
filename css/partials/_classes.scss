@@ -112,19 +112,21 @@ a {
   .pt-20{
     padding-top:$mediumgap;
   }
+  &>img{
+    width:100%;
+    transform-style: preserve-3d;
+}
+  &>img:hover {
+      transition-duration: 0.5s;
+      transform: scale(1.1,1.1);
+      -webkit-transform: scale(1.1,1.1);
+      -ms-transform: scale(1.1,1.1);
+    }
  
 }
 
-.panel>img{
-    width:100%;
-}
 
-.panel>img:hover {
-    transition-duration: 0.5s;
-    transform: scale(1.1,1.1);
-    -webkit-transform: scale(1.1,1.1);
-    -ms-transform: scale(1.1,1.1);
-  }
+
 
 .panel h3{
 	text-transform: uppercase;
@@ -185,6 +187,7 @@ font-family: 'Crimson Text', serif;
   float:left;
   width: 50%;
   height: 300px;
+  padding-right:5%;
 }
 
 .answers{
@@ -194,12 +197,6 @@ font-family: 'Crimson Text', serif;
   text-align: center;
 }
 
-.answers hr {
-  margin:auto;
-  border: 1px solid #F1EFEF;
-  width:60%;
-  text-align: center;
-}
 
 .next, #submit{
   display: block;
@@ -251,6 +248,8 @@ label{
   padding-bottom: 5%;
   vertical-align: center;
   background-color: white;
+  border-bottom: 2px solid #DADADA;
+
 
 
 }

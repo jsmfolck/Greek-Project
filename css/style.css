@@ -85,15 +85,14 @@ a {
     background-color: #f26464; }
   .panel .pt-20 {
     padding-top: 30px; }
-
-.panel > img {
-  width: 100%; }
-
-.panel > img:hover {
-  transition-duration: 0.5s;
-  transform: scale(1.1, 1.1);
-  -webkit-transform: scale(1.1, 1.1);
-  -ms-transform: scale(1.1, 1.1); }
+  .panel > img {
+    width: 100%;
+    transform-style: preserve-3d; }
+  .panel > img:hover {
+    transition-duration: 0.5s;
+    transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1); }
 
 .panel h3 {
   text-transform: uppercase;
@@ -144,18 +143,13 @@ a {
   display: block;
   float: left;
   width: 50%;
-  height: 300px; }
+  height: 300px;
+  padding-right: 5%; }
 
 .answers {
   display: block;
   float: right;
   width: 50%;
-  text-align: center; }
-
-.answers hr {
-  margin: auto;
-  border: 1px solid #F1EFEF;
-  width: 60%;
   text-align: center; }
 
 .next, #submit {
@@ -198,7 +192,8 @@ label {
   padding-top: 5%;
   padding-bottom: 5%;
   vertical-align: center;
-  background-color: white; }
+  background-color: white;
+  border-bottom: 2px solid #DADADA; }
 
 /* hides the circle button 
 and aligns it with the label*/
