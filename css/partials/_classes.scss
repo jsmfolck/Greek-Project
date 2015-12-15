@@ -200,7 +200,6 @@ font-family: 'Crimson Text', serif;
 
 .next, #submit{
   display: block;
-  float:right;
   margin-top: 20px;
   background-color:$color-main-gold-light;
   &:hover{
@@ -214,29 +213,31 @@ font-family: 'Crimson Text', serif;
   padding-top:20px;
   float:left;
   width:50%;
-  text-align:center;
+  text-align:left;
 }
 
 .quiz-nav ul{
   margin:0;
+
+    & li{
+    display: inline-block;
+    padding:2px;
+    font-size: 3em;
+    color:lighten($color-main-gold-light,20%);
+  }
 }
 
-.quiz-nav ul li{
-  display: inline-block;
-  padding:2px;
-  font-size: 1.7em;
-  color:lighten($color-main-gold-light,20%);
-}
+
 
 .quiz-nav-selected{
-  font-size: 2.5em !important;
+   display: inline-block;
   color:$color-main-gold-light !important;
   transition: color 0.8s;
 }
 
 .quiz-buttons{
   display: block;
-  float:right;
+  float:left;
 }
 
 
@@ -246,9 +247,10 @@ label{
 	width: 100%;
   padding-top: 5%;
   padding-bottom: 5%;
+  margin-bottom:1px;
   vertical-align: center;
   background-color: white;
-  border-bottom: 2px solid #DADADA;
+  border-bottom: 2px solid #F1F1F1;
 
 
 
@@ -258,7 +260,7 @@ label{
 and aligns it with the label*/
 input[type="radio"]:empty{
 	width: 50%;
-  height: 50%;
+  height: 10%;
 	position: absolute;
 	opacity: 0.01;
 }
@@ -270,6 +272,11 @@ input[type="radio"]:hover{
 input[type="radio"]+label{
 	cursor:pointer;
   margin:0;
+}
+label:hover{
+  cursor:pointer;
+  background-color: lighten($color-main-gold-light,20%);
+
 }
 
 /* when it's hovered*/
@@ -285,4 +292,3 @@ input[type="radio"]:checked+label{
 	background-color: $color-main-gold-light;
 }
 // MEDIA QUERIES //
-
