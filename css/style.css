@@ -157,7 +157,7 @@ a {
 
 .next, #submit {
   display: block;
-  float: right;
+  float: left;
   margin-top: 20px;
   background-color: #d9ae5f; }
   .next:hover, #submit:hover {
@@ -168,25 +168,24 @@ a {
   padding-top: 20px;
   float: left;
   width: 50%;
-  text-align: center; }
+  text-align: left; }
 
 .quiz-nav ul {
   margin: 0; }
-
-.quiz-nav ul li {
-  display: inline-block;
-  padding: 2px;
-  font-size: 1.7em;
-  color: #edd8b1; }
+  .quiz-nav ul li {
+    display: inline-block;
+    padding: 2px;
+    font-size: 3em;
+    color: #edd8b1; }
 
 .quiz-nav-selected {
-  font-size: 2.5em !important;
+  display: inline-block;
   color: #d9ae5f !important;
   transition: color 0.8s; }
 
 .quiz-buttons {
   display: block;
-  float: right; }
+  float: left; }
 
 /* the answer part*/
 label {
@@ -194,15 +193,16 @@ label {
   width: 100%;
   padding-top: 5%;
   padding-bottom: 5%;
+  margin-bottom: 1px;
   vertical-align: center;
   background-color: white;
-  border-bottom: 2px solid #DADADA; }
+  border-bottom: 2px solid #F1F1F1; }
 
 /* hides the circle button 
 and aligns it with the label*/
 input[type="radio"]:empty {
   width: 50%;
-  height: 50%;
+  height: 10%;
   position: absolute;
   opacity: 0.01; }
 
@@ -214,6 +214,10 @@ input[type="radio"]:hover {
 input[type="radio"] + label {
   cursor: pointer;
   margin: 0; }
+
+label:hover {
+  cursor: pointer;
+  background-color: #edd8b1; }
 
 /* when it's hovered*/
 input[type="radio"]:hover:not(:checked) + label {
