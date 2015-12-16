@@ -129,10 +129,13 @@ a {
   padding-top: 6%;
   padding-left: 8.33333%; }
 
-.parthenon {
-  margin: 0 auto;
-  width: 22em;
-  padding-bottom: 20px; }
+.pb-20 {
+  padding-bottom: 30px; }
+
+.landing-hero {
+  margin-top: 3em; }
+  .landing-hero img {
+    width: 400px; }
 
 .quiz {
   width: 80%;

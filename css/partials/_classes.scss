@@ -4,7 +4,6 @@ body {
   background: $color-main-beige;
   }
 
-
 h1 {
   //font-family: "Montserrat", sans-serif;
   font-family: "brandon-grotesque", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
@@ -166,11 +165,15 @@ font-family: 'Crimson Text', serif;
   padding-top: 6%;
   padding-left: 8.33333%; }
 
-.parthenon{
-	margin: 0 auto;
-	width:22em;
-	padding-bottom:$smallgap;
+.pb-20{
+	padding-bottom:$mediumgap;
 
+}
+.landing-hero {
+   margin-top:3em;
+   img {
+    width:400px;
+   }
 }
 
 
