@@ -43,7 +43,13 @@ p {
   color: $color-main-gold-light;
   margin-left:0.5em;
   margin-right: 1em;
+  z-index:999px;
  }
+
+.home-link>h1{
+  padding-left:1em;
+}
+    
 
 .epic {
   text-transform:uppercase;
