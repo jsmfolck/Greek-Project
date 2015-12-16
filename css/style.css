@@ -154,6 +154,7 @@ a {
 
 .next, #submit {
   display: block;
+  float: left;
   margin-top: 20px;
   background-color: #d9ae5f; }
   .next:hover, #submit:hover {

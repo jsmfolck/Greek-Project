@@ -200,6 +200,7 @@ font-family: 'Crimson Text', serif;
 
 .next, #submit{
   display: block;
+  float:left;
   margin-top: 20px;
   background-color:$color-main-gold-light;
   &:hover{
