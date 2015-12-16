@@ -38,10 +38,12 @@ p {
  	letter-spacing: .15em;
  }
 
- .bar-links {
-
+ .nav-links {
+  font-size: 1em;
+  color: $color-main-gold-light;
+  margin-left:0.5em;
+  margin-right: 1em;
  }
-
 
 .epic {
   text-transform:uppercase;
@@ -74,8 +76,8 @@ a {
 
 .dash-3 {
   border: 2px solid $color-main-black;
-  margin-top: 2em;
-  margin-bottom:3em;
+  margin-top: 2em !important;
+  margin-bottom:3em !important;
   border-radius:1px;
 }
 
@@ -317,13 +319,7 @@ input[type="radio"]:checked+label{
 
 // MEDIA QUERIES //
 
-@media only screen and (min-width: 40.0625em){
-	.dash-3 {
-	    float: none !important;
-	    // width:100%;
-	    margin:0 1em;
-	}
-}
+
 
 @media only screen and (max-width: 1080px){
 
