@@ -34,7 +34,11 @@ p {
   font-size: 1em;
   color: #d9ae5f;
   margin-left: 0.5em;
-  margin-right: 1em; }
+  margin-right: 1em;
+  z-index: 999px; }
+
+.home-link > h1 {
+  padding-left: 1em; }
 
 .epic {
   text-transform: uppercase;
