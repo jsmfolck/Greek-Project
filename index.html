@@ -3,11 +3,25 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GREEK QUIZ</title>
+    <title>The Greeks</title>
     <link rel="stylesheet" href="css/foundation.css"/>
 	<link rel="stylesheet" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Crimson+Text:400,600italic' rel='stylesheet' type='text/css'>
 
     <script src="js/vendor/modernizr.js"></script>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script>
+    	$(function(){
+    		$('img').hide();
+
+    	})
+
+    	$(document).ready(function(){
+    		$('img').fadeIn(1500);
+    	})
+
+    
+    </script>
   </head>
 <body>
 	<div class="off-canvas-wrap" data-offcanvas>
@@ -38,30 +52,27 @@
 
 <!-- Content -->
 
-	    <div class="landing-hero">
-	        <div class="text-center">
+	    <div class="landing-hero ">
+	        <div class="text-center first">
 	        		<img src="img/parthenon.svg"  alt="svg" class="pb-20">
 	        </div>
-	          <div>
+	     </div>
+	      <div class="text-center">
 	        	<h1 class="epic center">The Greeks Quiz </h1>
 	        	<hr class="dash">
 	        	<p class="secondary center">Find out which Greek God best represents you.</p>
-	        </div>
-	    </div>
-  
-    <div>
-	    <a href="#">
-    		<div class="link-box large-2 large-offset-5 medium-4 medium-offset-4  columns">
-        		<p class="link-box-text">Take Test</p>
+	        	<a href="quiz.html">
+    				<div class="link-box large-2 large-offset-5 medium-4 medium-offset-4 taketest">
+        				<p class="link-box-text ">TAKE QUIZ</p>
+	    			</div>
+	    		</a>
+	       </div>
 
-	    	</div>
-	    </a>
-    </div>
-	  <script src="js/vendor/jquery.js"></script>
+ </body>
+</html>
+  <script src="js/vendor/jquery.js"></script>
 	    <script src="js/foundation.min.js"></script>
 	    <script>
 	      $(document).foundation();
 	    </script>
 
- </body>
-</html>

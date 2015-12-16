@@ -92,14 +92,17 @@ a {
     background-color: #f26464; }
   .panel .pt-20 {
     padding-top: 30px; }
-  .panel > img {
+  .panel > a > img {
     width: 100%;
     transform-style: preserve-3d; }
-  .panel > img:hover {
+  .panel > a > img:hover {
     transition-duration: 0.5s;
     transform: scale(1.1, 1.1);
     -webkit-transform: scale(1.1, 1.1);
     -ms-transform: scale(1.1, 1.1); }
+
+.center {
+  text-align: center; }
 
 .panel h3 {
   text-transform: uppercase;
@@ -119,7 +122,7 @@ a {
   border-radius: 1px; }
 
 .link-box-text {
-  font-family: "brandon-grotesque", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
   color: #FFFFFF;
   padding: 1rem;
@@ -146,7 +149,7 @@ a {
 
 .quiz {
   width: 80%;
-  padding-top: 40px;
+  padding-top: 5em;
   margin: auto; }
 
 .question > h1 {
@@ -162,10 +165,18 @@ a {
   width: 50%;
   text-align: center; }
 
+.taketest {
+  background-color: #d9ae5f; }
+  .taketest:hover {
+    background-color: #edd8b1;
+    cursor: pointer; }
+
 .next, #submit {
   display: block;
   float: left;
   margin-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
   background-color: #d9ae5f; }
   .next:hover, #submit:hover {
     background-color: #edd8b1; }
@@ -196,6 +207,7 @@ a {
 
 /* the answer part*/
 label {
+  font-family: "Montserrat", sans-serif;
   display: block;
   width: 100%;
   padding-top: 5%;
@@ -242,6 +254,47 @@ input[type="radio"]:checked + label {
   .dash-3 {
     float: none !important;
     margin: 0 1em; } }
+@media only screen and (max-width: 1080px) {
+  .question > h1 {
+    font-size: 2.8em; } }
+@media only screen and (max-width: 768px) {
+  .question > h1 {
+    width: 100%;
+    height: 250px;
+    font-size: 2.5em; }
+
+  .answers {
+    width: 100%;
+    float: left; }
+
+  .quiz-nav {
+    width: 100%; }
+
+  .quiz-nav ul li {
+    font-size: 2.5em; } }
+@media only screen and (max-width: 480px) {
+  .landing-hero {
+    width: 330px;
+    text-align: center;
+    margin: 5em auto 1em; }
+
+  .secondary.center {
+    padding: 0 2em; }
+
+  .question > h1 {
+    width: 100%;
+    height: 220px;
+    font-size: 2.2em; }
+
+  .answers {
+    width: 100%;
+    float: left; }
+
+  .quiz-nav {
+    width: 100%; }
+
+  .quiz-nav ul li {
+    font-size: 2em; } }
 * {
   box-sizing: border-box; }
 

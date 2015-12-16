@@ -113,6 +113,7 @@ $(function(){
 
 
          $(".quiz-nav li").eq(id).addClass("quiz-nav-selected");
+         
 
       })
 
