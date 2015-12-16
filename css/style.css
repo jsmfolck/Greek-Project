@@ -2,33 +2,33 @@ body {
   background: #F9F6EF; }
 
 h1 {
-  font-family: "brandon-grotesque", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   letter-spacing: .15em; }
 
+h2 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  font-size: 2em;
+  padding-top: 1em; }
+
 h3 {
-  font-family: "brandon-grotesque", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   letter-spacing: .15em; }
 
 p {
   font-family: 'Crimson Text', serif;
-  font-size: 1em;
+  font-size: 1.1em;
   color: #262622;
-  letter-spacing: .08em;
-  line-height: 1.7em;
+  letter-spacing: .1em;
+  line-height: 2.4em;
   font-weight: 400;
   font-style: normal; }
 
 .title {
   letter-spacing: .15em; }
-
-.center {
-  text-align: center; }
-
-.left {
-  float: left;
-  margin-left: 0; }
 
 .epic {
   text-transform: uppercase;
@@ -37,7 +37,8 @@ p {
   font-size: 3.2em; }
 
 a {
-  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
   text-transform: uppercase; }
 
 .dash {
@@ -56,8 +57,14 @@ a {
   margin-bottom: 3%;
   border-radius: 1px; }
 
+.dash-3 {
+  border: 2px solid #262622;
+  margin-top: 2em;
+  margin-bottom: 3em;
+  border-radius: 1px; }
+
 .first {
-  margin-top: 5%; }
+  margin-top: 5em; }
 
 .secondary {
   font-family: 'Crimson Text', serif;
@@ -231,6 +238,10 @@ input[type="radio"]:hover:not(:checked) + label {
 input[type="radio"]:checked + label {
   background-color: #d9ae5f; }
 
+@media only screen and (min-width: 40.0625em) {
+  .dash-3 {
+    float: none !important;
+    margin: 0 1em; } }
 * {
   box-sizing: border-box; }
 
