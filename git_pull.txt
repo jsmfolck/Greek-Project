@@ -24,3 +24,5 @@ $ git push original master
 git branch -d temp
 git push
 
+take quiz
+view all characters
