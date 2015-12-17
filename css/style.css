@@ -36,6 +36,8 @@ p {
   margin-left: 0.5em;
   margin-right: 1em;
   z-index: 999px; }
+  .nav-links:hover {
+    color: #edd8b1; }
 
 .home-link > h1 {
   padding-left: 1em; }
@@ -265,13 +267,15 @@ input[type="radio"]:checked + label {
     float: none !important;
     margin: 0 1em; } }
 @media only screen and (max-width: 1080px) {
-  .question > h1 {
+  .epic {
     font-size: 2.8em; } }
 @media only screen and (max-width: 768px) {
+  .epic {
+    font-size: 2.5em; }
+
   .question > h1 {
     width: 100%;
-    height: 250px;
-    font-size: 2.5em; }
+    height: 250px; }
 
   .answers {
     width: 100%;
@@ -291,10 +295,12 @@ input[type="radio"]:checked + label {
   .secondary.center {
     padding: 0 2em; }
 
+  .epic {
+    font-size: 2.2em; }
+
   .question > h1 {
     width: 100%;
-    height: 220px;
-    font-size: 2.2em; }
+    height: 220px; }
 
   .answers {
     width: 100%;
