@@ -232,14 +232,18 @@ label {
 /* hides the circle button 
 and aligns it with the label*/
 input[type="radio"]:empty {
-  width: 50%;
+  width: 40%;
   height: 10%;
   position: absolute;
   opacity: 0.01; }
 
 /* cursor for the button*/
 input[type="radio"]:hover {
-  cursor: pointer; }
+  cursor: pointer;
+  width: 40%;
+  height: 10%;
+  position: absolute;
+  opacity: 0.01; }
 
 /* cursor for label */
 input[type="radio"] + label {

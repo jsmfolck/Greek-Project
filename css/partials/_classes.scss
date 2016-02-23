@@ -291,10 +291,11 @@ label{
   border-bottom: 2px solid #F1F1F1;
 }
 
+
 /* hides the circle button 
 and aligns it with the label*/
 input[type="radio"]:empty{
-	width: 50%;
+	width: 40%;
   height: 10%;
 	position: absolute;
 	opacity: 0.01;
@@ -302,6 +303,10 @@ input[type="radio"]:empty{
 /* cursor for the button*/
 input[type="radio"]:hover{
 	cursor:pointer;
+  width: 40%;
+  height: 10%;
+  position: absolute;
+  opacity: 0.01;
 }
 /* cursor for label */
 input[type="radio"]+label{
